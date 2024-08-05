@@ -27,7 +27,7 @@
 
 ## Technical Information
 * The KEY and IV (initializationVector) should be the same in the decrypt process.
-* Unit Tests present and are passing;
+* Unit Tests present and they are all passing;
 * The example is using CBC mode: Cipher Block Chaining mode;
 * CBC Mode uses PaddingMode.PKCS7:
 
