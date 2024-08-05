@@ -16,6 +16,7 @@
 ## Stack
 * .NET 8;
 * C#;
+* Console Application.
 
 <br>
 
