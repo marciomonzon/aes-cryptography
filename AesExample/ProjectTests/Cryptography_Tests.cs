@@ -1,11 +1,6 @@
 ﻿using AesExample.Security;
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectTests
 {
@@ -17,7 +12,7 @@ namespace ProjectTests
         [InlineData("Secret_Message")]
         [InlineData("Secret_Message@")]
         [InlineData("Secret!@#Message@")]
-        [InlineData("test@teste.com")]
+        [InlineData("test@test.com")]
         public void Should_Encrypt_Decrypt_And_Be_Valid(string secretMessage)
         {
             // Arrange
