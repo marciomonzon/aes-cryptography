@@ -29,7 +29,24 @@
 * The KEY and IV (initializationVector) should be the same in the decrypt process.
 * Unit Tests present and are passing;
 * The example is using CBC mode: Cipher Block Chaining mode;
-* CBC Mode uses PaddingMode.PKCS7;
+* CBC Mode uses PaddingMode.PKCS7:
+
+```ruby
+namespace System.Security.Cryptography
+{
+    //
+    // Summary:
+    //     Specifies the type of padding to apply when the message data block is shorter
+    //     than the full number of bytes needed for a cryptographic operation.
+    public enum PaddingMode
+    {
+        ...
+    }
+}
+```
+
+<br>
+
 * Encrypt Method:
   
 ```ruby
