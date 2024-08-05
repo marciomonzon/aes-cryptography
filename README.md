@@ -75,7 +75,7 @@ public static byte[] Encrypt(byte[] data, byte[] key, byte[] initializationVecto
 <br>
 
 
-## Documentation
+## Documentation References
 * https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography?view=net-8.0
 * https://learn.microsoft.com/pt-br/dotnet/api/system.security.cryptography.aes?view=net-8.0
 * Example implemented based on: https://devwithjosh.com/cryptography-in-c-asymmetric-and-symmetric-encryption
